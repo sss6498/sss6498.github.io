@@ -8387,7 +8387,15 @@ h1, h2, h3, h4, h5,
   .navbar-brand span {
     color: #fff; }
 
-#content-desktop {
+
+
+.hero-wrap {
+  width: 100%;
+  height: 100%;
+  position: inherit;
+  background-size: cover;
+  background-repeat: no-repeat; }
+  #content-desktop {
   position: absolute;
   top: 0;
   left: 0;
@@ -8401,12 +8409,12 @@ h1, h2, h3, h4, h5,
   background-repeat: no-repeat;
   background-size: cover;
   background-color: #3e64ff; }
-#content-mobile {display: none;}
+  #content-mobile {display: none;}
 
-@media screen and (max-width: 768px) {
+  @media screen and (max-width: 768px) {
 
-#content-desktop {display: none;}
-#content-mobile {
+  #content-desktop {display: none;}
+  #content-mobile {
   position: absolute;
   top: 0;
   left: 0;
@@ -8420,13 +8428,7 @@ h1, h2, h3, h4, h5,
   background-repeat: no-repeat;
   background-size: cover;
   background-color: #3e64ff; } 
-
-.hero-wrap {
-  width: 100%;
-  height: 100%;
-  position: inherit;
-  background-size: cover;
-  background-repeat: no-repeat; }
+  
   .hero-wrap .overlay {
     position: absolute;
     top: 0;
