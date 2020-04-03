@@ -8395,40 +8395,7 @@ h1, h2, h3, h4, h5,
   position: inherit;
   background-size: cover;
   background-repeat: no-repeat; }
-  #content-desktop {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  content: '';
-  opacity: .3;
-  width: 50%;
-  background-image: url("/images/nyc.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-color: #3e64ff; }
-  #content-mobile {display: none;}
 
-  @media screen and (max-width: 768px) {
-
-  #content-desktop {display: none;}
-  #content-mobile {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  content: '';
-  opacity: .3;
-  width: 50%;
-  background-image: url("/images/about.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-color: #3e64ff; } 
-  
   .hero-wrap .overlay {
     position: absolute;
     top: 0;
