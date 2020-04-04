@@ -8396,7 +8396,7 @@ h1, h2, h3, h4, h5,
   background-size: cover;
   background-repeat: no-repeat; }
 
-  @media (min-width: 576px) {
+  @media (min-width: 300px) {
   .hero-wrap .overlay {
     position: absolute;
     top: 0;
