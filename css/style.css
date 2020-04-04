@@ -8396,6 +8396,24 @@ h1, h2, h3, h4, h5,
   background-size: cover;
   background-repeat: no-repeat; }
 
+  @media (min-width: 576px) {
+  .hero-wrap .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: '';
+    opacity: .3;
+    width: 50%;
+    background-image: url("/images/about.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #3e64ff; }
+  }
+
+  @media (min-width: 768px) {
   .hero-wrap .overlay {
     position: absolute;
     top: 0;
@@ -8410,6 +8428,7 @@ h1, h2, h3, h4, h5,
     background-repeat: no-repeat;
     background-size: cover;
     background-color: #3e64ff; }
+  }
   .hero-wrap .text {
     width: 100%; }
 
