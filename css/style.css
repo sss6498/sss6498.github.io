@@ -8721,7 +8721,7 @@ h1, h2, h3, h4, h5,
 
 .page {
   width: 100%;
-  margin-bottom: 7em; }
+  /*margin-bottom: 7em;*/ }
   .page.four {
     margin-bottom: 0; }
   .page .heading {
@@ -9086,11 +9086,6 @@ textarea.form-control {
   .about-author .desc h3 {
     font-size: 24px; }
 
-.ftco-section-no-space {
-  position: relative; }
-  @media (max-width: 767.98px) {
-    .ftco-section-no-space { } }
-}
 .ftco-section {
   padding: 7em 0;
   position: relative; }
@@ -9098,6 +9093,11 @@ textarea.form-control {
     .ftco-section {
       padding: 6em 0; } }
 
+.ftco-section-no-space {
+  position: relative; }
+  @media (max-width: 767.98px) {
+    .ftco-section-no-space { } }
+}
 .ftco-no-pt {
   padding-top: 0 !important; }
 
