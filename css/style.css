@@ -8508,7 +8508,6 @@ h1, h2, h3, h4, h5,
     bottom: 0;
     content: '';
     border-radius: 50%;
-    background: #3e64ff;
     z-index: -1;
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
@@ -8738,7 +8737,6 @@ h1, h2, h3, h4, h5,
   .resume-wrap .icon {
     width: 50px;
     height: 50px;
-    background: #3e64ff;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
