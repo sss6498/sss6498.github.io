@@ -9165,6 +9165,7 @@ textarea.form-control {
       -ms-transform: translate(-50%, -50%);
       transform: translate(-50%, -50%); }
     .ftco-footer-social li a:hover {
+      background: #3e64ff;
       color: #fff; }
 
 .footer-small-nav > li {
