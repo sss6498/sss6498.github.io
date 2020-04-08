@@ -8405,13 +8405,29 @@ h1, h2, h3, h4, h5,
     bottom: 0;
     content: '';
     opacity: .3;
-    width: 50%;
+    width: 100%;
     background-image: url("/images/about.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-color: #3e64ff; }
+  .hero-wrap .overlay-blog {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: '';
+    opacity: .3;
+    width: 100%;
+    background-image: url("/images/nyc.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #3e64ff; }
   }
+  }
+
 
   @media (min-width: 768px) {
   .hero-wrap .overlay {
@@ -8423,6 +8439,21 @@ h1, h2, h3, h4, h5,
     content: '';
     opacity: .3;
     width: 50%;
+    background-image: url("/images/nyc.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #3e64ff; }
+
+  .hero-wrap .overlay-blog {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: '';
+    opacity: .3;
+    width: 100%;
     background-image: url("/images/nyc.jpg");
     background-position: center;
     background-repeat: no-repeat;
