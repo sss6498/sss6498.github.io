@@ -37,9 +37,41 @@ margin-left: 20px;
 .flaticon-web-design:before { content: "\f104"; }
 .flaticon-idea:before { content: "\f105"; }
 .flaticon-innovation:before { content: "\f106"; }
-.flaticon-drone:before { content: "\f107"; }
-.flaticon-lock:before { content: "\f108"; }
-.flaticon-bike:before { content: "\f109"; }
-.flaticon-bank:before { content: "\f10a"; }
-.flaticon-folder:before { content: "\f10b"; }
-.flaticon-train:before { content: "\f10c"; }
+
+
+
+
+
+
+@font-face {
+  font-family: "Flaticon2";
+  src: url("./flaticon2.eot");
+  src: url("./flaticon2.eot#iefix") format("embedded-opentype"),
+       url("./flaticon2.woff") format("woff"),
+       url("./flaticon2.ttf") format("truetype"),
+       url("./flaticon2.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon2";
+    src: url("./flaticon2.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon2-"]:before, [class*=" flaticon2-"]:before,
+[class^="flaticon2-"]:after, [class*=" flaticon2-"]:after {   
+  font-family: "Flaticon2";
+      font-size: 20px;
+  font-style: normal;
+margin-left: 20px;
+}
+
+.flaticon2-drone:before { content: "\f100"; }
+.flaticon2-face:before { content: "\f101"; }
+.flaticon2-bicycle-parking:before { content: "\f102"; }
+.flaticon2-upload:before { content: "\f103"; }
+.flaticon2-bank:before { content: "\f104"; }
+.flaticon2-train-times:before { content: "\f105"; }
