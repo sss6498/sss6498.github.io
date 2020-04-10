@@ -45,11 +45,12 @@ margin-left: 20px;
 
 @font-face {
   font-family: "Flaticon2";
-  src: url("./flaticon2.eot");
-  src: url("./flaticon2.eot#iefix") format("embedded-opentype"),
-       url("./flaticon2.woff") format("woff"),
-       url("./flaticon2.ttf") format("truetype"),
-       url("./flaticon2.svg#Flaticon") format("svg");
+  src: url("./Flaticon2.eot");
+  src: url("./Flaticon2.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon2.woff2") format("woff2"),
+       url("./Flaticon2.woff") format("woff"),
+       url("./Flaticon2.ttf") format("truetype"),
+       url("./Flaticon2.svg#Flaticon") format("svg");
   font-weight: normal;
   font-style: normal;
 }
