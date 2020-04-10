@@ -9044,7 +9044,8 @@ h1, h2, h3, h4, h5,
     -ms-transition: all 0.3s ease;
     transition: all 0.3s ease; }
     .photography .text h3 {
-      font-size: 20px; }
+      font-size: 20px;
+      color: #fff; }
       .photography .text h3 a {
         color: #fff; }
     .photography .text span {
