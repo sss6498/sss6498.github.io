@@ -8473,19 +8473,19 @@ h1, h2, h3, h4, h5,
 .slider-text h1 {
   font-size: 60px;
   font-weight: 800; }
-  @media (max-width: 767.98px) {
+  @media (max-width: 900px) {
     .slider-text h1 {
       font-size: 40px; } }
 
 .slider-text h2 {
   font-weight: 800; }
-  @media (max-width: 767.98px) {
+  @media (max-width: 900px) {
     .slider-text h2 {
       font-size: 20px; } }
   .slider-text h2 span {
     color: #3e64ff;
     text-decoration: underline; }
-    @media (max-width: 767.98px) {
+    @media (max-width: 900px) {
     .slider-text h2 span {
       font-size: 20px;
       color: #3e64ff;
