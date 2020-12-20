@@ -8421,7 +8421,7 @@ h1, h2, h3, h4, h5,
     content: '';
     opacity: .3;
     width: 100%;
-    background-image: url("/images/nyc.jpg");
+    background-image: url("/images/nycbw.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -8438,8 +8438,8 @@ h1, h2, h3, h4, h5,
     bottom: 0;
     content: '';
     opacity: .3;
-    width: 50%;
-    background-image: url("/images/nyc.jpg");
+    width: 100%;
+    background-image: url("/images/nycbw.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -8454,7 +8454,7 @@ h1, h2, h3, h4, h5,
     content: '';
     opacity: .3;
     width: 100%;
-    background-image: url("/images/nyc.jpg");
+    background-image: url("/images/nycbw.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
