@@ -8480,6 +8480,7 @@ h1, h2, h3, h4, h5,
 .slider-text h2 {
   font-weight: 800; }
   .slider-text h2 span {
+    font-size: 24px;
     color: #3e64ff;
     text-decoration: underline; }
 
