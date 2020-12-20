@@ -8480,9 +8480,13 @@ h1, h2, h3, h4, h5,
 .slider-text h2 {
   font-weight: 800; }
   .slider-text h2 span {
-    font-size: 24px;
     color: #3e64ff;
     text-decoration: underline; }
+    @media (max-width: 767.98px) {
+    .slider-text h2 span {
+      font-size: 20px;
+      color: #3e64ff;
+      text-decoration: underline; } }
 
 .slider-text p {
   font-size: 20px;
